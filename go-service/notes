@@ -1,0 +1,25 @@
+If cannot connect to SQL from GO
+
+https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/configure-a-server-to-listen-on-a-specific-tcp-port?view=sql-server-2017#SSMSProcedure
+
+If cannot connect to SQL Configuration Manager
+https://www.youtube.com/watch?v=SuCUSH0RAVo
+
+Setup kafka with docker
+https://www.baeldung.com/ops/kafka-docker-setup
+
+Setup Docker for windows
+https://docs.docker.com/desktop/windows/install/
+
+CREATE SCHEMA TestSchema;
+GO
+
+CREATE TABLE TestSchema.BlogEntry (
+  Id       INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+  Title     NVARCHAR(50),
+  Content NVARCHAR(1200),
+  CreatedDate int
+);
+GO
+
+
